@@ -14,20 +14,24 @@ Compte à rebours **responsive** vers le Black Friday, qui :
 
 ## 👀 Aperçu
 
-![screenshot du compte à rebours](./screenshot.png)
+![Screenshot du compte à rebours](./.github/screenshot.png)
 
 ---
 
 ## 🗂 Arborescence
-├─ index.html # page principale (utilise assets/css + assets/js)
-├─ demo.html # version all-in-one pour tests rapides
+<details><summary>
+├─ index.html               # page principale (utilise assets/css + assets/js)
+├─ demo.html                # version all-in-one pour tests rapides
 ├─ assets/
-│ ├─ css/
-│ │ └─ style.css # styles 2025 (variables CSS, responsive)
-│ └─ js/
-│ └─ main.js # logique du compte à rebours + .ics + copier la date
+│  ├─ css/
+│  │  └─ style.css         # styles 2025 (variables CSS, responsive)
+│  └─ js/
+│     └─ main.js           # logique du compte à rebours + .ics + copier la date
+├─ .github/
+│  └─ screenshot.png       # visuel pour le README
 ├─ README.md
 └─ LICENSE
+</summary></details>
 
 
 ## 🚀 Déploiement (GitHub Pages)
@@ -87,6 +91,10 @@ Compte à rebours **responsive** vers le Black Friday, qui :
 Ce projet est sous licence **MIT** — voir [`LICENSE`](./LICENSE).
 
 ---
+
+## 💡 To the moon
+Devenez, comme [BlackFriday-France.com](https://www.blackfriday-france.com/), le meilleur site de votre catégorie.
+
 
 ## ✨ Crédits
 
