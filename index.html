@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Black Friday – Compte à rebours</title>
+  <meta name="description" content="Compte à rebours Black Friday, auto mise à jour chaque année, affichage Today le jour J, reset automatique le lendemain." />
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <div class="shell">
+    <main class="card" role="region" aria-labelledby="title">
+      <header>
+        <h1 id="title">Black Friday – Compte à rebours <span class="year" id="yearLabel"></span></h1>
+        <p class="sub" id="dateLabel">Calcul automatique de la date chaque année (4ᵉ jeudi de novembre + 1 jour).</p>
+      </header>
+
+      <div class="status">
+        <span class="pill"><span class="dot" aria-hidden="true"></span><span id="statusText">Initialisation…</span></span>
+      </div>
+
+      <section aria-live="polite" aria-atomic="true">
+        <div class="grid" id="grid">
+          <div class="tile"><div class="label">Jours</div><div class="value" id="d">0</div></div>
+          <div class="tile"><div class="label">Heures</div><div class="value" id="h">0</div></div>
+          <div class="tile"><div class="label">Minutes</div><div class="value" id="m">0</div></div>
+          <div class="tile"><div class="label">Secondes</div><div class="value" id="s">0</div></div>
+        </div>
+        <div id="todayBanner" class="today" style="display:none; margin-top:12px"><span class="burst" aria-hidden="true"></span> Today</div>
+      </section>
+
+      <div class="cta">
+        <button class="btn" id="addCalendar">Ajouter au calendrier (.ics)</button>
+        <button class="btn" id="copyDate">Copier la date</button>
+      </div>
+
+      <footer id="foot"></footer>
+      <p>&copy; Ce tool vous est proposé gratuitement par <a href="https://www.blackfriday-france.com/" target="_blank" rel="noopener">Black Friday France</a></p>
+    </main>
+  </div>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
