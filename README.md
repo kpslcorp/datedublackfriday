@@ -93,7 +93,7 @@ Ce projet est sous licence **MIT** — voir [`LICENSE`](./LICENSE).
 ---
 
 ## 💡 To the moon
-Devenez, comme [BlackFriday-France.com](https://www.blackfriday-france.com/), le meilleur site de votre catégorie.
+Devenez, comme [BlackFridayFrance.com](https://blackfridayfrance.com/), le meilleur site de votre catégorie.
 
 
 ## ✨ Crédits
