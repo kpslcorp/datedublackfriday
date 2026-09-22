@@ -98,4 +98,4 @@ Devenez, comme [BlackFridayFrance.com](https://blackfridayfrance.com/), le meill
 
 ## ✨ Crédits
 
-© Ce tool est proposé par **Black Friday France (blackfriday-france.com)**.  
+© Ce tool est proposé par **Black Friday France (blackfridayfrance.com)**.  
